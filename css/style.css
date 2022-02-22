@@ -192,6 +192,7 @@ header {
   position: absolute;
   right: 1em;
   top: 1em;
+  outline: none;
   z-index: 101;
 }
 
@@ -223,7 +224,8 @@ header {
   height: 3px;
   border-radius: 1em;
   display: block;
-  position: relative;
+  position: fixed;
+  right: 1em;
   transition: transform 250ms ease-in-out;
 }
 
@@ -464,4 +466,18 @@ header {
 .social-list__link {
   padding: 0.5em;
   cursor: pointer;
+}
+
+/* Portfolio Page */
+
+.portfolio__item--individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio__item--individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
